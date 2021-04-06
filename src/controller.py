@@ -6,12 +6,16 @@ from geometry_msgs.msg import Twist
 from linefollower.py import Follower
 from obstacle_avoider.py import are_we_clear()
 from obstacle_avoider.py import which_direction()
+from obstacle_avoider.py import turning(a)
 
 # Creating an instance of Follower
 rospy.init_node('racer')
 racer = Follower()
 
+# ------------buffer------------
+while racer.
+
 def readyset():
     while (rospy.is_not_shutdown()):
         if(not are_we_clear()):
-            
+            turning(a)
